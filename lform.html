@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Form Fiqa</title>
+  </head>
+  <body>
+    <h1>Mari kita data bokem</h1>
+    <form>
+      <table>
+        <tr>
+          <th><label for="username">Username:</label></th>
+          <td><input type="text" id="username" /></td>
+        </tr>
+        <tr>
+          <th><label for="password">Password :</label></th>
+          <td><input type="password" id="password" /></td>
+        </tr>
+        <tr>
+          <th><label>Kamu jenis makhluk aph? </label></th>
+          <td>
+            <input type="radio" id="manusia" name="jenismakhlukhidup" />
+            <label for="manusia">manusia</label>
+            <input type="radio" id="anime" name="jenismakhlukhidup" />
+            <label for="anime">anime</label>
+            <input type="radio" id="anomali" name="jenismakhlukhidup" />
+            <label for="anomali">anomali</label>
+          </td>
+        </tr>
+        <tr>
+          <th><label for="asal">Kamu drmn ia?</label></th>
+          <td>
+            <select id="asal">
+              <option>Bumi</option>
+              <option>Indonesia</option>
+              <option>Air</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <th><label>Kamu yg mn?</label></th>
+          <td>
+            <input type="checkbox" id="bocil replay" /><label for="bocil replay"
+              >bocil replay</label
+            >
+            <input type="checkbox" id="bocil live" /><label for="bocil live"
+              >bocil live</label
+            >
+            <input type="checkbox" id="bocil top up" /><label for="bocil top up"
+              >bocil top up</label
+            >
+            <input type="checkbox" id="bocil caper" /><label for="bocil caper"
+              >bocil caper</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <th><label for="warna">Pilih 1 warna ia</label></th>
+          <td><input type="color" id="warna" /></td>
+        </tr>
+        <tr>
+          <th><label for="tanggal">Skrg tggl brp yhh?</label></th>
+          <td><input type="datetime-local" id="tanggal" /></td>
+        </tr>
+        <tr>
+          <th><label for="cerita">Coba km cerita drmn kenal windah</label></th>
+          <td><textarea id="cerita"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <button type="submit">udh bng!</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
